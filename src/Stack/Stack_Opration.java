@@ -16,7 +16,6 @@ class  Stack_Opration{
 		newnode.next=head;
 		head=newnode;
 	}
-	
 	public static int  peek() {
 		if(isEmpty()) {
 			return -1;
